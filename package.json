@@ -1,0 +1,19 @@
+{
+  "name": "learning-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rpratik13/learning-fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rpratik13/learning-fullstack/issues"
+  },
+  "homepage": "https://github.com/Rpratik13/learning-fullstack#readme"
+}
