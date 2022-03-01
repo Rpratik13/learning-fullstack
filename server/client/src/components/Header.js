@@ -18,9 +18,13 @@ class Header extends Component {
         );
 
       default:
+        const { credits } = this.props.auth;
         return [
           <li key="1">
             <Payments />
+          </li>,
+          <li key="3" style={{ margin: "0 10px" }}>
+            Credits: {credits || 0}
           </li>,
           <li key="2">
             <a href="/api/logout">Logout</a>
