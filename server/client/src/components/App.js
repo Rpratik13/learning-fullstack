@@ -15,16 +15,16 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <BrowserRouter>
+      <BrowserRouter>
+        <div className="container">
           <Header />
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/surveys" element={<Dashboard />} />
             <Route path="/surveys/new" element={<SurveyNew />} />
           </Routes>
-        </BrowserRouter>
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
